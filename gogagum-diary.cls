@@ -227,3 +227,19 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \NewDocumentCommand{\diarybookreference}{ m m }{\hyperref[book:#1]{#2}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\NewDocumentCommand{\diarytitle}{ m }{
+  \thispagestyle{empty}
+
+  \begin{center}
+    \vfill
+    \vspace*{0.4\textheight}
+
+    \Huge
+    \bf{#1}
+
+    \normalsize
+  \end{center}
+  \newpage
+}
