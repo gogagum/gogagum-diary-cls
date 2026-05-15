@@ -243,3 +243,12 @@
   \end{center}
   \newpage
 }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\NewDocumentCommand{\diarytableofcontents}{ }{
+  \begin{frame}{\hspace{-1pt}}
+    \begin{multicols}{2}
+      \tableofcontents
+    \end{multicols}
+  \end{frame}
+}
