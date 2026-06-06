@@ -14,6 +14,7 @@
 \RequirePackage{titletoc,tocloft}
 \RequirePackage{fancyhdr}
 \RequirePackage{xparse}
+\RequirePackage{float}
 
 \RequirePackage[
   a4paper,
