@@ -186,7 +186,7 @@
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\NewDocumentCommand{\diaryfilmreference}{ m m }{\hyperref[film:#1]{#2}}
+\NewDocumentCommand{\diaryfilmref}{ m m }{\hyperref[film:#1]{#2}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \NewDocumentCommand{\diarycartoon}{ m m m +m }{
@@ -197,7 +197,7 @@
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\NewDocumentCommand{\diarycartoonreference}{ m m }{\hyperref[cartoon:#1]{#2}}
+\NewDocumentCommand{\diarycartoonref}{ m m }{\hyperref[cartoon:#1]{#2}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \NewDocumentCommand{\diarycartoonseriesepisode}{ m m m +m }{
