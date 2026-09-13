@@ -102,7 +102,7 @@
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\NewDocumentCommand{\diarymonthreference}{ m m m }{\hyperref[\domonthlabel{#1}{#2}]{#3}}
+\NewDocumentCommand{\diarymonthref}{ m m m }{\hyperref[\domonthlabel{#1}{#2}]{#3}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \NewDocumentCommand{\diaryyear}{ m }{
