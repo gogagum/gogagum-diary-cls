@@ -119,7 +119,7 @@
   \vspace{5pt}
 }
 
-\NewDocumentCommand{\diarypersonreference}{ m m }{\hyperref[person:#1]{#2}}
+\NewDocumentCommand{\diarypersonref}{ m m }{\hyperref[person:#1]{#2}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \NewDocumentCommand{\diaryperson}{ m m +m }{
