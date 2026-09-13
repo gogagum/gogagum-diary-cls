@@ -175,7 +175,7 @@
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\NewDocumentCommand{\diarytrackreference}{ m m }{\hyperref[track:#1]{#2}}
+\NewDocumentCommand{\diarytrackref}{ m m }{\hyperref[track:#1]{#2}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \NewDocumentCommand{\diaryfilm}{ m m m +m }{
